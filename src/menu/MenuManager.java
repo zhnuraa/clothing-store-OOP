@@ -1,5 +1,7 @@
 package menu;
 
+import database.CustomerDAO;
+private CustomerDAO customerDAO = new CustomerDAO();
 import model.*;
 import exception.InvalidInputException;
 
