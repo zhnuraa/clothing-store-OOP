@@ -2,11 +2,6 @@ package model;
 
 import exception.InvalidInputException;
 
-/**
- * Week 6: second interface (besides Menu) + exceptions in validation.
- * To keep the project structure IDENTICAL (no extra files), the interface is
- * package-private and placed in this file.
- */
 interface Discountable {
     double getDiscountRate();
 }
